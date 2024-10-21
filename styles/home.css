@@ -1,114 +1,112 @@
 #home-hero-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .name-container {
-    margin: 20px;
+  margin: 20px;
 }
 
 .hero-buttons-container {
-    margin-top: 25px;
-    display: flex;
-    gap: 10px;
+  margin-top: 25px;
+  display: flex;
+  gap: 10px;
 }
 
 .button {
-    width: 100%;
-    border: 1px solid;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: transparent;
-    font-family: sans-serif;
-    font-size: 18px;
-    transition: 0.3s ease;
-    text-decoration: none;
-    text-align: center;
+  width: 100%;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: transparent;
+  font-family: sans-serif;
+  font-size: 18px;
+  transition: 0.3s ease;
+  text-decoration: none;
+  text-align: center;
 }
 
 .button:hover {
-    box-shadow: 0 0 10px teal;
-    background-color: transparent;
-    color: teal;
+  box-shadow: 0 0 10px teal;
+  background-color: transparent;
+  color: teal;
 }
 
-
 .cyan-button {
-    color: rgb(18, 18, 18);
-    background-color: #00dfc0;
-    border: none;
+  color: rgb(18, 18, 18);
+  background-color: #00dfc0;
+  border: none;
 }
 
 .cyan-text {
-    font-size: 60px;
-    color: #00dfc0;
+  font-size: 60px;
+  color: #00dfc0;
 }
 
 .hero-image {
-    width: 35%;
-    height: auto;
-    -webkit-transform: scaleX(-1);
+  width: 35%;
+  height: auto;
+  -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
 
 .section-title {
-    font-family: monospace;
-    padding-left: 20px;
-    padding-top: 20px;
-    margin-left: 40px;
+  font-family: monospace;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-left: 40px;
 }
 
 .section-paragraph {
-    padding: 20px;
-    margin-left: 60px;
-    max-width: 60%;
+  padding: 20px;
+  margin-left: 60px;
+  max-width: 60%;
 }
 
 .skills-container {
-    margin-top: 40px;
-    margin-left: 150px;
-    display: flex;
-    gap: 20px;
+  margin-top: 40px;
+  margin-left: 150px;
+  display: flex;
+  gap: 20px;
 }
 
 .skill-image {
-    width: 70px;
-    height: auto;
+  width: 70px;
+  height: auto;
 }
 
-
 h4 {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .date-text {
-    font-size: 20px;
-    color: #7a7a7a;
-    margin-top: 10px;
-    margin-left: 85px;
+  font-size: 20px;
+  color: #7a7a7a;
+  margin-top: 10px;
+  margin-left: 85px;
 }
 
 .experience-paragraph {
-    margin-left: 85px;
-    margin-top: 20px;
+  margin-left: 85px;
+  margin-top: 20px;
 }
 
 footer {
-    margin-top: -20px;
-    background-color: #333333
+  margin-top: -20px;
+  background-color: #333333;
 }
 
 .quote-container {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .quote {
-    font-size: 22px;
-    font-family: cursive;
-    margin: 5px;
+  font-size: 22px;
+  font-family: cursive;
+  margin: 5px;
 }
