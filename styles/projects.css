@@ -1,0 +1,42 @@
+.card-container {
+    padding: 15px;
+    margin: 20px;
+    border: 1px white solid;
+    border-radius: 30px;
+    display: flex;
+    text-decoration: none;
+}
+
+.card-container:hover {
+    box-shadow: 0 0 10px teal;
+    color: teal;
+}
+
+.card-text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.card-project-title {
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.card-project-description {
+    padding: 10px;
+    font-size: 18px;
+    max-width: 60%;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-image-container {
+    margin-left: 2px;
+    margin-right: 0px;
+    padding: 5px;
+}
