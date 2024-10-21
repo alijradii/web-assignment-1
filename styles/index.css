@@ -3,7 +3,7 @@
     box-sizing: border-box;
 
     color: #cfcfcf;
-    font-size: 22px;
+    font-size: 12px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -28,10 +28,16 @@ h3 {
     font-size: 35px;
 }
 
+h4 {
+    font-size: 28px;
+    margin-left: 100px;
+}
+
 p {
     max-width: 70%;
     padding-left: 20px;
     line-height:150%;
+    font-size: 22px;
 }
 
 .section {

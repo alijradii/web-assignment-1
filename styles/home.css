@@ -14,17 +14,20 @@
     gap: 10px;
 }
 
-button {
+.button {
     width: 100%;
     border: 1px solid;
     border-radius: 10px;
     padding: 10px;
     background-color: transparent;
     font-family: sans-serif;
+    font-size: 18px;
     transition: 0.3s ease;
+    text-decoration: none;
+    text-align: center;
 }
 
-button:hover {
+.button:hover {
     box-shadow: 0 0 10px teal;
     background-color: transparent;
     color: teal;
@@ -51,7 +54,8 @@ button:hover {
 
 .section-title {
     font-family: monospace;
-    padding: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
     margin-left: 40px;
 }
 
@@ -61,5 +65,50 @@ button:hover {
     max-width: 60%;
 }
 
-#about-section {
+.skills-container {
+    margin-top: 40px;
+    margin-left: 150px;
+    display: flex;
+    gap: 20px;
+}
+
+.skill-image {
+    width: 70px;
+    height: auto;
+}
+
+
+h4 {
+    margin-top: 50px;
+}
+
+.date-text {
+    font-size: 20px;
+    color: #7a7a7a;
+    margin-top: 10px;
+    margin-left: 85px;
+}
+
+.experience-paragraph {
+    margin-left: 85px;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: -20px;
+    background-color: #333333
+}
+
+.quote-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 22px;
+    font-family: cursive;
+    margin: 5px;
 }
